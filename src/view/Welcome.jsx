@@ -11,25 +11,25 @@ const Welcome = ()=>{
                 <div className="text-center content-box">
                     <h1>Bienvenido !!, Soy Francisco Garay</h1>
                     <h3>-&gt;AnalistaProgramador();</h3>
-                    <h4>desde Coquimbo,chile. 🇨🇱</h4>
+                    <h4>desde Coquimbo, Chile. 🇨🇱</h4>
                     <h5></h5>
                 </div>
             </div>
             <div className='row'>
-                <div className='col-12 col-sm-6'>
-                    <h4>Habilidades Tecnicas.</h4>
-                    <ul>
-                        <li>Dev Web FullStack.</li>
-                        <li>Dev Software (DevOps).</li>
-                        <li>VideoGame Dev.</li>
-                        <li>Administración Base de Datos.</li>
-                        <li>Tecnico en Computacion.</li>
-                        <li>Windows y Linux manager.</li>
+                <div className='col-12'>
+                    <h4 className="text-center">Habilidades Tecnicas.</h4>
+                    <ul className='tecnical-container'>
+                        <li className='tecnical-button dwfs'>Dev. Web FullStack.</li>
+                        <li className='tecnical-button dsoft'>Dev. Software (DevOps).</li>
+                        <li className='tecnical-button dvvg'>Dev. VideoGame</li>
+                        <li className='tecnical-button abd'>Administración Base de Datos.</li>
+                        <li className='tecnical-button tcm'>Tecnico en Computacion.</li>
+                        <li className='tecnical-button wlm'>Windows y Linux manager.</li>
                     </ul>
                 </div>
-                <div className='col-12 col-sm-6'>
-                    <h4>RSS</h4>
-                    <ul>
+                <div className='col-12'>
+                    <h4 className="text-center">RSS</h4>
+                    <ul className="rss-section">
                         <li><a href=''><img src={wsp} width='20px'/></a></li>
                         <li><a href=''><img src={ltk} width='20px'/></a></li>
                         <li><a href=''><img src={fcb} width='20px'/></a></li>

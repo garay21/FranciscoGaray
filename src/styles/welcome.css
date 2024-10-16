@@ -5,4 +5,36 @@
 .content-box {
     width: 100%; 
 }
+.tecnical-container {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+.tecnical-button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.3s;
+    color: #000000; /* Color del texto */
+    font-weight: bold;
+    border: #000000 1px solid;
+}
+  
+.tecnical-button:hover {
+    transform: scale(1.05);
+}
+.rss-section{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
 
