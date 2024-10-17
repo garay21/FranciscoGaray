@@ -5,6 +5,8 @@ import int from '../icons/instagram.png';
 import ltk from '../icons/linkedin.png';
 import { useState } from 'react';
 
+import ListItem from '../components/hooks/ListItem';
+
 const Welcome = ()=>{
     const [bgColor, setBgColor] = useState('');
 
@@ -26,12 +28,12 @@ const Welcome = ()=>{
                 <div className='col-12'>
                     <h4 className="text-center">Habilidades Tecnicas.</h4>
                     <ul className='tecnical-container'>
-                        <li className='tecnical-button dwfs' onMouseEnter={()=>changeColor('#20c0d8')}>Dev. Web FullStack.</li>
-                        <li className='tecnical-button dsoft'onMouseEnter={()=>changeColor('#efb630')}>Dev. Software (DevOps).</li>
-                        <li className='tecnical-button dvvg' onMouseEnter={()=>changeColor('#7b7974')}>Dev. VideoGame</li>
-                        <li className='tecnical-button abd' onMouseEnter={()=>changeColor('#1ab783')}>Administración Base de Datos.</li>
-                        <li className='tecnical-button tcm' onMouseEnter={()=>changeColor('#eb5148')}>Tecnico en Computacion.</li>
-                        <li className='tecnical-button wlm' onMouseEnter={()=>changeColor('#5d5f96')}>Windows y Linux manager.</li>
+                        <ListItem changeColor={changeColor} clr="#20c0d8" details="Dev. Web FullStack."/>
+                        <ListItem changeColor={changeColor} clr="#efb630" details="Dev. Software (DevOps)."/>
+                        <ListItem changeColor={changeColor} clr="#7b7974" details="Dev. VideoGame"/>
+                        <ListItem changeColor={changeColor} clr="#1ab783" details="Administración Base de Datos."/>
+                        <ListItem changeColor={changeColor} clr="#eb5148" details="Tecnico en Computacion."/>
+                        <ListItem changeColor={changeColor} clr="#5d5f96" details="Windows y Linux manager."/>
                     </ul>
                 </div>
                 <div className='col-12'>
