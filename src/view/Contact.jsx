@@ -37,9 +37,9 @@ const Contact = ()=>{
                 <div className="contact-items col-12 col-lg-6">
                     <ul className='contact-list'>
                         <ItemContact Title="Dirección" Ref="https://g.co/kgs/kLCVd5u" Description="697 Street Martiz, Coquimbo, Chile."/>
-                        <ItemContact Title="Telefono - Wsp" Ref="https:wa.me/56930392238" Description="+56 9 30392238"/>
+                        <ItemContact Title="Telefono - Wsp" Ref="https://wa.me/56930392238" Description="+56 9 30392238"/>
                         <ItemContact Title="E-Mail" Ref="mailto:garaymolina21@gmail.com?subject=Hola&body=Estoy%20interesado%20en%20tus%20servicios." Description="garaymolina21@gmail.com"/>
-                        <ItemContact Title="Linkedin" Ref="https:linkedin.com/in/francisco-garay-3b417715b" Description="linkedin.com/Francisco-Garay"/>
+                        <ItemContact Title="Linkedin" Ref="https://www.linkedin.com/in/francisco-garay-3b417715b" Description="linkedin.com/Francisco-Garay"/>
                         <ItemContact Title="Facebook" Ref="https://www.facebook.com/share/NUzk1uWWyDBs2RLD/" Description="/Francisco-Garay"/>
                         <ItemContact Title="Instagram" Ref="https://www.instagram.com/garay.snk/" Description="@garay.snk"/>
                     </ul>

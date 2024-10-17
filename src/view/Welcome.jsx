@@ -39,8 +39,8 @@ const Welcome = ()=>{
                 <div className='col-12'>
                     <h4 className="text-center">RSS</h4>
                     <ul className="rss-section">
-                        <li><a href='https:wa.me/56930392238' target="_blank"><img src={wsp} /></a></li>
-                        <li><a href='https:linkedin.com/in/francisco-garay-3b417715b' target="_blank"><img src={ltk} /></a></li>
+                        <li><a href='https://wa.me/56930392238' target="_blank"><img src={wsp} /></a></li>
+                        <li><a href='https://www.linkedin.com/in/francisco-garay-3b417715b' target="_blank"><img src={ltk} /></a></li>
                         <li><a href='https://www.facebook.com/share/NUzk1uWWyDBs2RLD/' target="_blank"><img src={fcb} /></a></li>
                         <li><a href='https://www.instagram.com/garay.snk/' target="_blank"><img src={int} /></a></li>                        
                     </ul>
