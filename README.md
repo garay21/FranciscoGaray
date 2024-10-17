@@ -1,8 +1,6 @@
-# React + Vite
+# Francisco Garay.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
++ Este portafolio refleja mis datos personales, projectos, conocimientos y educación. 
++ Mostrar Mis ganas de trabajar y dedicarme a esto, siempre buscando la forma de aprender nuevos retos y tecnologias.
++ Espero les sirva para ver y motivar quizas una candidatura para trabajo estable.
++ voy a dejar este readmi en un pequeño detalle en la aplicacion como un postdata.

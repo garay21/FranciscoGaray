@@ -1,5 +1,5 @@
 {
-  "Homepage" : "https://garay21.github.io/FranciscoGaray",
+  "Homepage": "https://garay21.github.io/FranciscoGaray",
   "name": "example-portfolio",
   "private": true,
   "version": "0.0.0",
@@ -15,6 +15,7 @@
   "dependencies": {
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.3",
+    "emailjs-com": "^3.2.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
