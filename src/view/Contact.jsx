@@ -47,15 +47,15 @@ const Contact = ()=>{
                 <div className="form-email col-12 col-lg-6">
                     <form ref={form} onSubmit={hangleSubmit}>
                         <div className="mb-3">
-                            <label for="exampleFormControlInput1" className="form-label">Nombre :</label>
+                            <label htmlFor="exampleFormControlInput1" className="form-label">Nombre :</label>
                             <input type="text" name='name' className="form-control" id="exampleFormControlInput1" placeholder="Francisco Garay" required/>
                         </div>
                         <div className="mb-3">
-                            <label for="exampleFormControlInput1" className="form-label">Email :</label>
+                            <label htmlFor="exampleFormControlInput1" className="form-label">Email :</label>
                             <input type="email" name='email' className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required/>
                         </div>
                         <div className="mb-3">
-                            <label for="exampleFormControlTextarea1" className="form-label">Mensaje :</label>
+                            <label htmlFor="exampleFormControlTextarea1" className="form-label">Mensaje :</label>
                             <textarea className="form-control" name='message' id="exampleFormControlTextarea1" rows="5" required></textarea>
                         </div>
                         <input type="submit" value="Enviar"/>
