@@ -28,8 +28,8 @@ const Welcome = ()=>{
                     <ul className='tecnical-container'>
                         <li className='tecnical-button dwfs' onMouseEnter={()=>changeColor('#20c0d8')}>Dev. Web FullStack.</li>
                         <li className='tecnical-button dsoft'onMouseEnter={()=>changeColor('#efb630')}>Dev. Software (DevOps).</li>
-                        <li className='tecnical-button dvvg' onMouseEnter={()=>changeColor('#b8625c')}>Dev. VideoGame</li>
-                        <li className='tecnical-button abd' onMouseEnter={()=>changeColor('#576b3b')}>Administración Base de Datos.</li>
+                        <li className='tecnical-button dvvg' onMouseEnter={()=>changeColor('#7b7974')}>Dev. VideoGame</li>
+                        <li className='tecnical-button abd' onMouseEnter={()=>changeColor('#1ab783')}>Administración Base de Datos.</li>
                         <li className='tecnical-button tcm' onMouseEnter={()=>changeColor('#eb5148')}>Tecnico en Computacion.</li>
                         <li className='tecnical-button wlm' onMouseEnter={()=>changeColor('#5d5f96')}>Windows y Linux manager.</li>
                     </ul>
@@ -37,10 +37,10 @@ const Welcome = ()=>{
                 <div className='col-12'>
                     <h4 className="text-center">RSS</h4>
                     <ul className="rss-section">
-                        <li><a href=''><img src={wsp} width='20px'/></a></li>
-                        <li><a href=''><img src={ltk} width='20px'/></a></li>
-                        <li><a href=''><img src={fcb} width='20px'/></a></li>
-                        <li><a href=''><img src={int} width='20px'/></a></li>                        
+                        <li><a href=''><img src={wsp} /></a></li>
+                        <li><a href=''><img src={ltk} /></a></li>
+                        <li><a href=''><img src={fcb} /></a></li>
+                        <li><a href=''><img src={int} /></a></li>                        
                     </ul>
                 </div>                
             </div>
