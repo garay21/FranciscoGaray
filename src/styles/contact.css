@@ -9,10 +9,31 @@
     flex-wrap: wrap;
     padding: 0;
 }
+.contact-item {
+    display: flex;  
+    justify-content: flex-start;  
+    align-items: center;  
+    overflow: hidden; 
+}
 .contact-item a {
     text-decoration: none;
     padding: 0px 5px;
     color: rgb(86, 97, 107);
+    position: relative;
+}
+.contact-item::after{
+    content: "👈";
+    font-size: 20px;
+    animation: move-left 0.5s infinite alternate;
+    margin-left: 20px;
+}
+@keyframes move-left{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-10px);
+    }
 }
 .contact-item{
     text-decoration: none;
