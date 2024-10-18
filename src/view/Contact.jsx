@@ -45,7 +45,8 @@ const Contact = ()=>{
                     </ul>
                 </div>
                 <div className="form-email col-12 col-lg-6">
-                    <form ref={form} onSubmit={hangleSubmit}>
+                    <h4 className='text-center'>Contactame via E-mail.</h4>
+                    <form className="form-contact" ref={form} onSubmit={hangleSubmit}>
                         <div className="mb-3">
                             <label htmlFor="exampleFormControlInput1" className="form-label">Nombre :</label>
                             <input type="text" name='name' className="form-control" id="exampleFormControlInput1" placeholder="Francisco Garay" required/>
@@ -58,7 +59,7 @@ const Contact = ()=>{
                             <label htmlFor="exampleFormControlTextarea1" className="form-label">Mensaje :</label>
                             <textarea className="form-control" name='message' id="exampleFormControlTextarea1" rows="5" required></textarea>
                         </div>
-                        <input type="submit" value="Enviar"/>
+                        <input className='submit-input' type="submit" value="Enviar"/>
                     </form>
                     {
                         mssg.type &&(

@@ -25,9 +25,9 @@ function App() {
   }
 
   return (
-    <div className="container-fluid">
+    <div className="">
         <Header NavPage={NavPage}/>
-        <div className='container-fluid'>{
+        <div className='container'>{
           RenderPage()
         }</div>
         <footer className='footer'>
