@@ -31,7 +31,11 @@ const Projects = ()=>{
                     </h2>
                     <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div className="accordion-body">
-
+                            {
+                                pd.webProjects.map((item)=>{
+                                    return <CardItem Title={item[0]} Img={item[1]} Ref={item[2]} Details={item[3]}/>
+                                })
+                            }
                         </div>
                     </div>
                 </div>

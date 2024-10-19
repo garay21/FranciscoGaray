@@ -7,17 +7,40 @@ export const ProjectsData = {
             'Sub-Warrior',
             SWI,
             'https://franciscogaray.itch.io/subwarrior',
-            'video Juego Reto, Sub warrior - simulador de submarino - tecnologia utilizada Construct - pruebelo de manera online en telefono o pc.'
+            'video Juego Reto, Sub warrior - simulador de submarino - Tecnologia utilizada Construct - juegalo de manera online en telefono o pc.'
         ],
         [
             'He cuts grass',
             CPI,
             '#',
-            'Video Juego Reto, El corta pasto - tecnologia PHP nativo. Descarguelo y disfrute (para iniciar dentro de la carpeta en una terminal ejecute "php gameManager.php")'
+            'Video Juego Reto, El corta pasto - Tecnologia utilizada PHP nativo. Descarguelo y disfrute (para iniciar dentro de la carpeta en una terminal ejecute "php gameManager.php")'
+        ],
+        [
+            'Mediabal-Blast',
+            '',
+            '#',
+            'Video Juego puzzle, Match-3 - Tecnologias utilizadas Unity y C#. Descarguelo y disfrute (solo Windows, Descomprima y ejecute el archivo mediabal-blast.exe)'
         ]
     ],
     'webProjects': [
-        '','','',''
+        [
+            'D-marck Check',
+            '',
+            '#',
+            'Aplicacion web, administra y analiza archivos DMARC (Domain-based Message Authentication, Reporting and Conformance, Autenticación de Mensajes Basada en Dominios, Informes y Conformidad). Muestra datos en graficos y balances.'
+        ],
+        [
+            'D-marck Check',
+            '',
+            '#',
+            'Aplicacion web, administra y analiza archivos DMARC (Domain-based Message Authentication, Reporting and Conformance, Autenticación de Mensajes Basada en Dominios, Informes y Conformidad). Muestra datos en graficos y balances.'
+        ],
+        [
+            'D-marck Check',
+            '',
+            '#',
+            'Aplicacion web, administra y analiza archivos DMARC (Domain-based Message Authentication, Reporting and Conformance, Autenticación de Mensajes Basada en Dominios, Informes y Conformidad). Muestra datos en graficos y balances.'
+        ],
     ]
 };
 
