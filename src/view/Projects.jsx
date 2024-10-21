@@ -10,7 +10,7 @@ const Projects = ()=>{
                 <div className="accordion-item">
                     <h2 className="accordion-header">
                     <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Game Developer.
+                        Desarrollador Video-Juegos.
                     </button>
                     </h2>
                     <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
@@ -26,7 +26,7 @@ const Projects = ()=>{
                 <div className="accordion-item">
                     <h2 className="accordion-header">
                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Web Developer.
+                        Desarrollador Web .
                     </button>
                     </h2>
                     <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -42,12 +42,32 @@ const Projects = ()=>{
                 <div className="accordion-item">
                     <h2 className="accordion-header">
                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        My-Sql Developer.
+                        Desarrollador Sql.
                     </button>
                     </h2>
                     <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div className="accordion-body">
-
+                            {
+                                pd.sqlProjects.map((item)=>{
+                                    return <CardItem Title={item[0]} Img={item[1]} Ref={item[2]} Details={item[3]}/>
+                                })
+                            }
+                        </div>
+                    </div>
+                </div>
+                <div className="accordion-item">
+                    <h2 className="accordion-header">
+                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Desarrollador Mobile.
+                    </button>                    
+                    </h2>
+                    <div id="collapseFour" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div className="accordion-body">
+                            {
+                                pd.mobileProjects.map((item)=>{
+                                    return <CardItem Title={item[0]} Img={item[1]} Ref={item[2]} Details={item[3]}/>
+                                })
+                            }
                         </div>
                     </div>
                 </div>

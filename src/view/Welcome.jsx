@@ -1,3 +1,4 @@
+import { SkillsData as sd } from './../components/constants/ConstProjects.js'
 import '../styles/welcome.css'
 import wsp from '../icons/whatsapp.png';
 import fcb from '../icons/facebook.png';
@@ -17,11 +18,26 @@ const Welcome = ()=>{
     return(
         <>
             <div className="welcome d-flex justified-content-center align-items-center" style={{backgroundColor: bgColor}}>
-                <div className="text-center content-box" >
-                    <h1>Bienvenido !!, Soy Francisco Garay</h1>
-                    <h3>-&gt;AnalistaProgramador();</h3>
-                    <h4>desde Coquimbo, Chile. 🇨🇱</h4>
-                    <h5></h5>
+                <div className="content-box">
+                    <h1 className='text-center'>Bienvenido !!, Soy Francisco Garay</h1>
+                    <h3 className='text-center'>-&gt;AnalistaProgramador();</h3>
+                    <h4 className='text-center'>desde Coquimbo, Chile. 🇨🇱</h4>
+                    <div className="icons-container">
+                        {
+                            sd.lenguaje.map((item, index)=>{
+                                return <div key={index} className='skill-icon'>
+                                        <img src={item} alt='skill'/>
+                                    </div>
+                            })
+                        }                            
+                        {
+                            sd.frameworks.map((item, index)=>{
+                                return <div key={index} className='skill-icon'>
+                                        <img src={item} alt='skill'/>
+                                    </div>
+                            })
+                        }
+                    </div>
                 </div>
             </div>
             <div className='row'>
