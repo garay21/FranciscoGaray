@@ -1,3 +1,7 @@
 .fg-logo {
     width: 50px;
 }
+
+.navbar .collapse {
+    margin-left: 30px;
+}

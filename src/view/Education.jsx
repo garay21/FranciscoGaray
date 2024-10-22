@@ -5,7 +5,7 @@ const Education = ()=>{
         <section className="education-st">
             <h3 className="text-center">Educación</h3>
             <div className="table-responsive-lg">            
-            <table className="table table-secondary table-responsive-mb">
+            <table className="table">
                 <thead>
                     <tr>
                         <th scope="col">Grado</th>

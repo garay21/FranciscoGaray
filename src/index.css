@@ -1,11 +1,14 @@
 :root {
-  --bs-body-bg: #c4c4c4; 
-  --bs-container-bg: #daffc9; 
-  --bs-container-fluid-bg: #daffc9; 
+  /* --bs-body-bg: #cacaca; 
+  --bs-container-bg: #4e4e50; 
   
   --bs-heading-color: #343a40; 
   --bs-navbar-bg: #224366; 
   --bs-card-bg: #e9ecef; 
+
+  --accordion-color : #e9ecef;
+  --accordion-bg : #e9ecef;
+  --accordion-button-active-color : #e9ecef; */
 }
 
 :root {

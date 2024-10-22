@@ -17,7 +17,7 @@ const Projects = ()=>{
                         <div className="accordion-body">                            
                             {
                                 pd.gameProject.map((item)=>{
-                                    return <CardItem Title={item[0]} Img={item[1]} Ref={item[2]} Details={item[3]}/>
+                                    return <CardItem Title={item[0]} Img={item[1]} Ref={item[2]} Details={item[3]} Tecno={item[4]}/>
                                 })
                             }
                         </div>
@@ -33,7 +33,7 @@ const Projects = ()=>{
                         <div className="accordion-body">
                             {
                                 pd.webProjects.map((item)=>{
-                                    return <CardItem Title={item[0]} Img={item[1]} Ref={item[2]} Details={item[3]}/>
+                                    return <CardItem Title={item[0]} Img={item[1]} Ref={item[2]} Details={item[3]} Tecno={item[4]}/>
                                 })
                             }
                         </div>
@@ -49,7 +49,7 @@ const Projects = ()=>{
                         <div className="accordion-body">
                             {
                                 pd.sqlProjects.map((item)=>{
-                                    return <CardItem Title={item[0]} Img={item[1]} Ref={item[2]} Details={item[3]}/>
+                                    return <CardItem Title={item[0]} Img={item[1]} Ref={item[2]} Details={item[3]} Tecno={item[4]}/>
                                 })
                             }
                         </div>
@@ -65,7 +65,7 @@ const Projects = ()=>{
                         <div className="accordion-body">
                             {
                                 pd.mobileProjects.map((item)=>{
-                                    return <CardItem Title={item[0]} Img={item[1]} Ref={item[2]} Details={item[3]}/>
+                                    return <CardItem Title={item[0]} Img={item[1]} Ref={item[2]} Details={item[3]} Tecno={item[4]}/>
                                 })
                             }
                         </div>

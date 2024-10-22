@@ -12,5 +12,18 @@
 .card img {
     max-width: 300px;
     max-height: 300px;
+}
 
+.card .skill-content {
+    display: flex;
+    justify-content: left;
+    gap: 5px;
+    width: 100%;
+    height: auto;
+    margin: 3px;
+}
+
+.skill-icon-card {
+    width: 40px;
+    height: 40px;
 }
