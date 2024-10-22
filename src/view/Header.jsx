@@ -18,9 +18,9 @@ const Header = ({NavPage}) => {
                             <li className="nav-item">
                                 <button className="nav-link" onClick={()=>NavPage('Contact')}>Contacto</button>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <button className="nav-link" onClick={()=>NavPage('Skills')}>Conocimientos</button>
-                            </li>    
+                            </li>     */}
                             <li className="nav-item">
                                 <button className="nav-link" onClick={()=>NavPage('Projects')}>Proyectos</button>
                             </li>  
