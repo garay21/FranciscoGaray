@@ -7,6 +7,7 @@ import ltk from '../icons/linkedin.png';
 import { useState } from 'react';
 
 import ListItem from '../components/hooks/ListItem';
+import IconContainer from '../components/hooks/IconContainer.jsx';
 
 const Welcome = ()=>{
     const [bgColor, setBgColor] = useState('');
@@ -21,23 +22,11 @@ const Welcome = ()=>{
                 <div className="content-box">
                     <h1 className='text-center'>Bienvenido !!, Soy Francisco Garay</h1>
                     <h3 className='text-center'>-&gt;AnalistaProgramador();</h3>
-                    <h4 className='text-center'>desde Coquimbo, Chile. 🇨🇱</h4>
-                    <div className="icons-container">
-                        {
-                            sd.lenguaje.map((item, index)=>{
-                                return <div key={index} className='skill-icon'>
-                                        <img src={item} alt='skill'/>
-                                    </div>
-                            })
-                        }                            
-                        {
-                            sd.frameworks.map((item, index)=>{
-                                return <div key={index} className='skill-icon'>
-                                        <img src={item} alt='skill'/>
-                                    </div>
-                            })
-                        }
-                    </div>
+                    <h4 className='text-center m-0'>desde Coquimbo, Chile. 🇨🇱</h4>
+                    <div className="icons">
+                        <IconContainer Sd={sd}/>
+                        <IconContainer Sd={sd}/>
+                    </div>                    
                 </div>
             </div>
             <div className='row'>
