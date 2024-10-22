@@ -22,12 +22,13 @@ const Welcome = ()=>{
                 <div className="content-box">
                     <h1 className='text-center'>Bienvenido !!, Soy Francisco Garay</h1>
                     <h3 className='text-center'>-&gt;AnalistaProgramador();</h3>
-                    <h4 className='text-center m-0'>desde Coquimbo, Chile. 🇨🇱</h4>
-                    <div className="icons">
-                        <IconContainer Sd={sd}/>
-                        <IconContainer Sd={sd}/>
-                    </div>                    
+                    <h4 className='text-center m-0'>desde Coquimbo, Chile. 🇨🇱</h4>                                      
                 </div>
+                <div className="icons">
+                    <IconContainer Sd={sd}/>
+                    <IconContainer Sd={sd}/>
+                    <IconContainer Sd={sd}/>
+                </div>  
             </div>
             <div className='row'>
                 <div className='col-12'>
