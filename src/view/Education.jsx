@@ -4,7 +4,8 @@ const Education = ()=>{
     return (
         <section className="education-st">
             <h3 className="text-center">Educación</h3>
-            <table className="table table-secondary table-responsive">
+            <div className="table-responsive-lg">            
+            <table className="table table-secondary table-responsive-mb">
                 <thead>
                     <tr>
                         <th scope="col">Grado</th>
@@ -43,6 +44,7 @@ const Education = ()=>{
                     </tr>
                 </tbody>
             </table>
+            </div>
         </section>
     );
 }
