@@ -3,6 +3,9 @@ import SWI from '../../icons/projectsImage/subwarrior.png'
 import CPI from '../../icons/projectsImage/cutpast.png'
 import MBM3 from '../../icons/projectsImage/match3.png'
 import DMRK from '../../icons/projectsImage/dmarc.png'
+import RTL from '../../icons/projectsImage/login.png'
+import IFRM from '../../icons/projectsImage/Form-1.jpg'
+import NTS from '../../icons/projectsImage/notas.jpg'
 
 // iconos de lenguajes 
 import lphp from '../../icons/php.png'
@@ -30,7 +33,6 @@ import swin from '../../icons/win.png'
 import slnx from '../../icons/linux.png' 
 
 import next from '../../icons/paso.png'
-
 
 export const ProjectsData = {
     'gameProject' : [
@@ -62,25 +64,25 @@ export const ProjectsData = {
             DMRK,
             '#',
             'Aplicación web, administra y analiza informes DMARC (Domain-based Message Authentication, Reporting and Conformance). Datos graficados, detalles documentos, etc.',
-            [lphp,thtml,tcss,flrl]
+            [lphp,ljs,thtml,tcss,flrl,fmysql]
         ],
         [
             'React-Login',
-            '',
+            RTL,
             'https://github.com/garay21/react-login-dashboard.git',
             'App Web con menú responsivo y login para acceso con autenticación.',
             [ljs,freact,thtml,tcss]           
         ],
         [
             'Formulario votaciones',
-            '',
+            IFRM,
             'https://github.com/garay21/Form_vote.git',
             'Formulario para omitir votos según los candidatos expuestos.',
             [lphp,ljs,lsql,fmysql,thtml,tcss]
         ],
         [
             'Notas View',
-            '',
+            NTS,
             '#',
             'Aplicación web, CRUD de notas personales(Agrega, actualiza, elimina y visualiza textos notas).',
             [ljs,freact,lsql,fmysql]
