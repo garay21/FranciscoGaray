@@ -25,7 +25,7 @@ const Header = ({NavPage}) => {
                                 <button className="nav-link" onClick={()=>NavPage('Projects')}>Proyectos</button>
                             </li>  
                             <li className="nav-item">
-                                <button className="nav-link" onClick={()=>NavPage('Education')}>Educacion</button>
+                                <button className="nav-link" onClick={()=>NavPage('Education')}>Educación</button>
                             </li>                           
                         </ul>
                     </div>

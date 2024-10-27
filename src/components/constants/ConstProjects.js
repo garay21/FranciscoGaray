@@ -38,21 +38,21 @@ export const ProjectsData = {
             'Sub-Warrior',
             SWI,
             'https://franciscogaray.itch.io/subwarrior',
-            'video Juego Retro, Sub warrior - simulador de submarino - Tecnologia utilizada Construct - juegalo de manera online en telefono o pc.',
+            'videojuego Retro, Sub warrior - simulador de submarino - Tecnología utilizada Construct - juégalo de manera online en teléfono o pc.',
             [fc3]
         ],
         [
             'He cuts grass',
             CPI,
             '#',
-            'Video Juego Retro, El corta pasto - Tecnologia utilizada PHP nativo. Descarguelo y disfrute (para iniciar dentro de la carpeta en una terminal ejecute "php gameManager.php")',
+            'videojuego Retro, El corta pasto - Tecnología utilizada PHP nativo. Descárguelo y disfrute (para iniciar dentro de la carpeta en una terminal ejecute "php gameManager.php").',
             [lphp]
         ],
         [
             'Mediabal-Blast',
             MBM3,
             '#',
-            'Video Juego puzzle, Match-3 - Tecnologias utilizadas Unity y C#. Descarguelo y disfrute (solo Windows, Descomprima y ejecute el archivo mediabal-blast.exe)',
+            'VideoJuego puzzle, Match-3 - Tecnologías utilizadas Unity y C#. Descárguelo y disfrute (solo Windows, Descomprima y ejecute el archivo mediabal-blast.exe).',
             [lcsharp,funity]
         ]
     ],
@@ -61,22 +61,29 @@ export const ProjectsData = {
             'Analisis D-marck',
             DMRK,
             '#',
-            'Aplicacion web, administra y analiza informes DMARC (Domain-based Message Authentication, Reporting and Conformance). Datos graficados, detalles documentos, etc.',
+            'Aplicación web, administra y analiza informes DMARC (Domain-based Message Authentication, Reporting and Conformance). Datos graficados, detalles documentos, etc.',
             [lphp,thtml,tcss,flrl]
         ],
         [
             'React-Login',
             '',
-            '#',
-            '',
-            [ljs,freact,]           
+            'https://github.com/garay21/react-login-dashboard.git',
+            'App Web con menú responsivo y login para acceso con autenticación.',
+            [ljs,freact,thtml,tcss]           
         ],
         [
-            'Titulo App',
+            'Formulario votaciones',
+            '',
+            'https://github.com/garay21/Form_vote.git',
+            'Formulario para omitir votos según los candidatos expuestos.',
+            [lphp,ljs,lsql,fmysql,thtml,tcss]
+        ],
+        [
+            'Notas View',
             '',
             '#',
-            '',
-            []
+            'Aplicación web, CRUD de notas personales(Agrega, actualiza, elimina y visualiza textos notas).',
+            [ljs,freact,lsql,fmysql]
         ],
     ],
     'sqlProjects': [

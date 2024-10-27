@@ -39,7 +39,7 @@ const Projects = ()=>{
                         </div>
                     </div>
                 </div>
-                <div className="accordion-item">
+                {/* <div className="accordion-item">
                     <h2 className="accordion-header">
                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                         Desarrollador Sql.
@@ -54,7 +54,7 @@ const Projects = ()=>{
                             }
                         </div>
                     </div>
-                </div>
+                </div> */}
                 <div className="accordion-item">
                     <h2 className="accordion-header">
                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">

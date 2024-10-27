@@ -48,7 +48,7 @@ const Contact = ()=>{
                     </ul>
                 </div>
                 <div className="form-email col-12 col-lg-6">
-                    <h4 className='text-center'>Contactame via E-mail.</h4>
+                    <h4 className='text-center'>Contactame vía E-mail</h4>
                     <form className="form-contact" ref={form} onSubmit={hangleSubmit}>
                         <div className="mb-3">
                             <label htmlFor="exampleFormControlInput1" className="form-label">Nombre :</label>
