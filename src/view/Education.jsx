@@ -26,7 +26,7 @@ const Education = ()=>{
                         <td>Egresado</td>
                     </tr>
                     <tr>
-                        <td scope="row">Diseño y Desarrollo de Video-Juegos</td>
+                        <td scope="row">Diseño y Desarrollo de VideoJuegos</td>
                         <td>Universidad Sek</td>
                         <td>2018 - 2019</td>
                         <td>Santiago, Chile</td>
@@ -35,7 +35,7 @@ const Education = ()=>{
                     </tr>
                     <tr>
                         <td scope="row">Analista programador computacional</td>
-                        <td>Instituto Profecional de Chile</td>
+                        <td>Instituto Profesional de Chile</td>
                         <td>2021 - 2023</td>
                         <td>Coquimbo, Chile</td>
                         <td>Técnicas de programación, gestión de datos, ciberseguridad, especialización en el desarrollo avanzado de aplicaciones web,
