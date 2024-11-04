@@ -53,7 +53,7 @@ export const ProjectsData = {
         [
             'Mediabal-Blast',
             MBM3,
-            '#',
+            'https://drive.google.com/file/d/199ziK3kmuykRdoXIOsZzeRZSLmm6_eC1/view?usp=drive_link',
             'VideoJuego puzzle, Match-3 - Tecnologías utilizadas Unity y C#. Descárguelo y disfrute (solo Windows, Descomprima y ejecute el archivo mediabal-blast.exe).',
             [lcsharp,funity]
         ]
